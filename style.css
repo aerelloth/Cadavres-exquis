@@ -15,7 +15,7 @@ h1 {
 	text-shadow: 0 0 10px #c0ffee;
 }
 
-#new {
+.new {
 	border-radius: 15px;
 	border: 1px solid #C0FFEE;
 	background-color: white;
