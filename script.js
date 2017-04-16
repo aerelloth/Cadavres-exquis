@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function()
 	var element1_4 = ['au petit-déjeuner', 'au 12ème siècle', 'le jour de son anniversaire', 'pour s\'amuser', 'parce que c\'était l\'heure', 'par amour', 'avec des frites', 'sur le tabouret de la cuisine', 'à Paris', 'sous la pluie', 'le premier jour des soldes', 'en pleine voie', 'pour 5 euros', 'pour sauver sa peau', 'sans s\'en rendre compte'];
 	var liste1 = [element1_1, element1_2, element1_3, element1_4];
 
-	var element2_1 = ['La mise à jour', 'L\'installation', 'L\'initialisation', 'La suppression', 'La désinstallation'];
-	var element2_2 = ['du fichier', 'du script', 'de la base de données', 'du site'];
-	var element2_3 = ['a échoué', 'a été correctement effectuée', 'a été reportée', 'sera effectuée ultérieurement'];
+	var element2_1 = ['La mise à jour', 'L\'installation', 'L\'initialisation', 'La suppression', 'La désinstallation', 'La création'];
+	var element2_2 = ['du fichier', 'du script', 'de la base de données', 'du site', 'du dossier', 'du répertoire'];
+	var element2_3 = ['a échoué', 'a été correctement effectuée', 'a été reportée', 'sera effectuée ultérieurement', 'a rencontré une erreur'];
 	var liste2 = [element2_1, element2_2, element2_3];
 
 	function getRandomInt(min, max) {
@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function()
 			}
 		};
 		citation.innerHTML = toAdd;
+		console.log(toAdd);
 	});
 
 	newButton2.addEventListener('click', function(event)
@@ -53,5 +54,6 @@ document.addEventListener('DOMContentLoaded', function()
 			}
 		};
 		citation.innerHTML = toAdd;
+		console.log(toAdd);
 	});
 });
