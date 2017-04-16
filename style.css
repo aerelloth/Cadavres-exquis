@@ -21,11 +21,16 @@ h1 {
 	background-color: white;
 	padding: 5px;
 	cursor: pointer;
+	margin: 10px;
+}
+
+#boutons {
+	margin: 10px 0;
 }
 
 #citation {
-	margin-top: 50px;
 	border: 1px solid #C0FFEE;
 	padding: 10px;
 	background-color: #fff;
+	line-height: 1.5;
 }
